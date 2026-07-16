@@ -1,9 +1,9 @@
 import express from "express";
 import cors from "cors";
-import resourceRoutes from "./routes/resource.routes";
+import resourceRoutes from "./modules/farmers/routes/resource.routes";
 import cookieParser from "cookie-parser";
 import morgan from "morgan";
-import uploadRoutes from "./routes/upload.routes";
+import uploadRoutes from "./modules/farmers/routes/upload.routes";
 
 const app = express();
 
